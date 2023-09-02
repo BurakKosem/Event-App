@@ -1,0 +1,90 @@
+2023-08-27 11:21:18.160 +03:00 [INF] System.Func`3[System.String,Microsoft.AspNetCore.Routing.RouteData,System.String]
+2023-08-27 11:23:25.311 +03:00 [INF] System.Func`3[System.String,Microsoft.AspNetCore.Routing.RouteData,System.String]
+2023-08-27 11:25:07.773 +03:00 [INF] System.Func`3[System.String,Microsoft.AspNetCore.Routing.RouteData,System.String]
+2023-08-27 11:25:12.408 +03:00 [INF] System.Func`3[System.String,Microsoft.AspNetCore.Routing.RouteData,System.String]
+2023-08-27 11:25:25.063 +03:00 [INF] System.Func`3[System.String,Microsoft.AspNetCore.Routing.RouteData,System.String]
+2023-08-27 11:25:34.474 +03:00 [INF] System.Func`3[System.String,Microsoft.AspNetCore.Routing.RouteData,System.String]
+2023-08-27 11:26:14.325 +03:00 [INF] System.Func`3[System.String,Microsoft.AspNetCore.Routing.RouteData,System.String]
+2023-08-27 11:26:44.358 +03:00 [INF] System.Func`3[System.String,Microsoft.AspNetCore.Routing.RouteData,System.String]
+2023-08-27 11:27:25.323 +03:00 [INF] Method çalıştı
+2023-08-27 11:28:48.499 +03:00 [INF] {"Model":"OnActionExecuting","Controller":"Event","Action":"GetByCategoryId","Id":null}
+2023-08-27 11:29:33.519 +03:00 [INF] {"Model":"OnActionExecuting","Controller":"Event","Action":"GetByCategoryId","Id":null}
+2023-08-27 11:41:06.282 +03:00 [INF] {"Model":"OnActionExecuting","Controller":"Event","Action":"GetByCategoryId","Id":null}
+2023-08-27 11:43:40.340 +03:00 [INF] User profile is available. Using 'C:\Users\karap\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-27 11:43:40.545 +03:00 [INF] Now listening on: https://localhost:7074
+2023-08-27 11:43:40.546 +03:00 [INF] Now listening on: http://localhost:5018
+2023-08-27 11:43:40.548 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-27 11:43:40.549 +03:00 [INF] Hosting environment: Development
+2023-08-27 11:43:40.549 +03:00 [INF] Content root path: C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.WebAPI\
+2023-08-27 11:43:45.160 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/swagger/index.html - -
+2023-08-27 11:43:45.627 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/swagger/index.html - - - 200 - text/html;charset=utf-8 475.2777ms
+2023-08-27 11:43:45.698 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/_framework/aspnetcore-browser-refresh.js - -
+2023-08-27 11:43:45.698 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/_vs/browserLink - -
+2023-08-27 11:43:45.706 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 7.2022ms
+2023-08-27 11:43:45.715 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.0162ms
+2023-08-27 11:43:45.823 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/swagger/v1/swagger.json - -
+2023-08-27 11:43:45.925 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 101.7706ms
+2023-08-27 11:43:48.830 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/api/Event/getall - -
+2023-08-27 11:43:48.895 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2023-08-27 11:43:48.900 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-08-27 11:43:48.902 +03:00 [INF] HTTP GET /api/Event/getall responded 401 in 65.0174 ms
+2023-08-27 11:43:48.904 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/api/Event/getall - - - 401 0 - 73.6337ms
+2023-08-27 11:43:52.663 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/api/Event/getbycategoryid?id=1 - -
+2023-08-27 11:43:52.671 +03:00 [INF] Executing endpoint 'EventApp.WebAPI.Controllers.EventController.GetByCategoryId (EventApp.WebAPI)'
+2023-08-27 11:43:52.701 +03:00 [INF] Route matched with {action = "GetByCategoryId", controller = "Event"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetByCategoryId(Int32) on controller EventApp.WebAPI.Controllers.EventController (EventApp.WebAPI).
+2023-08-27 11:43:52.949 +03:00 [INF] {"Model":"OnActionExecuting","Controller":"Event","Action":"GetByCategoryId","Id":null}
+2023-08-27 11:43:53.608 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-27 11:43:53.739 +03:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[EventApp.Entities.Event, EventApp.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-27 11:43:54.540 +03:00 [INF] Executed DbCommand (73ms) [Parameters=[@__categoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EventId], [e].[Address], [e].[ApplicationFinishDate], [e].[CategoryId], [e].[CityId], [e].[Date], [e].[Description], [e].[Name], [e].[Price], [e].[Quota], [e].[Status], [e].[Ticket]
+FROM [Events] AS [e]
+WHERE [e].[CategoryId] = @__categoryId_0
+2023-08-27 11:43:54.610 +03:00 [INF] Executed action EventApp.WebAPI.Controllers.EventController.GetByCategoryId (EventApp.WebAPI) in 1904.9602ms
+2023-08-27 11:43:54.611 +03:00 [INF] Executed endpoint 'EventApp.WebAPI.Controllers.EventController.GetByCategoryId (EventApp.WebAPI)'
+2023-08-27 11:43:54.613 +03:00 [INF] HTTP GET /api/Event/getbycategoryid responded 200 in 1947.5418 ms
+2023-08-27 11:43:54.624 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/api/Event/getbycategoryid?id=1 - - - 200 - application/json;+charset=utf-8 1961.4539ms
+2023-08-27 11:43:58.669 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/api/City/getall - -
+2023-08-27 11:43:58.670 +03:00 [INF] Executing endpoint 'EventApp.WebAPI.Controllers.CityController.GetAll (EventApp.WebAPI)'
+2023-08-27 11:43:58.671 +03:00 [INF] Route matched with {action = "GetAll", controller = "City"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller EventApp.WebAPI.Controllers.CityController (EventApp.WebAPI).
+2023-08-27 11:43:58.722 +03:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[EventApp.Entities.Models.CityModel, EventApp.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-27 11:43:58.743 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CityId], [c].[CityName]
+FROM [Cities] AS [c]
+2023-08-27 11:43:58.744 +03:00 [INF] Executed action EventApp.WebAPI.Controllers.CityController.GetAll (EventApp.WebAPI) in 72.4777ms
+2023-08-27 11:43:58.744 +03:00 [INF] Executed endpoint 'EventApp.WebAPI.Controllers.CityController.GetAll (EventApp.WebAPI)'
+2023-08-27 11:43:58.744 +03:00 [INF] HTTP GET /api/City/getall responded 200 in 73.9602 ms
+2023-08-27 11:43:58.744 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/api/City/getall - - - 200 - application/json;+charset=utf-8 74.5035ms
+2023-08-27 11:44:02.107 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/api/Category/getall - -
+2023-08-27 11:44:02.107 +03:00 [INF] Executing endpoint 'EventApp.WebAPI.Controllers.CategoryController.GetAll (EventApp.WebAPI)'
+2023-08-27 11:44:02.108 +03:00 [INF] Route matched with {action = "GetAll", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller EventApp.WebAPI.Controllers.CategoryController (EventApp.WebAPI).
+2023-08-27 11:44:02.116 +03:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[EventApp.Entities.Models.CategoryModel, EventApp.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-27 11:44:02.121 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryId], [c].[CategoryName]
+FROM [Categories] AS [c]
+2023-08-27 11:44:02.122 +03:00 [INF] Executed action EventApp.WebAPI.Controllers.CategoryController.GetAll (EventApp.WebAPI) in 13.8846ms
+2023-08-27 11:44:02.122 +03:00 [INF] Executed endpoint 'EventApp.WebAPI.Controllers.CategoryController.GetAll (EventApp.WebAPI)'
+2023-08-27 11:44:02.122 +03:00 [INF] HTTP GET /api/Category/getall responded 200 in 14.8336 ms
+2023-08-27 11:44:02.122 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/api/Category/getall - - - 200 - application/json;+charset=utf-8 15.2700ms
+2023-08-27 11:44:53.622 +03:00 [INF] User profile is available. Using 'C:\Users\karap\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-27 11:44:53.828 +03:00 [INF] Now listening on: https://localhost:7074
+2023-08-27 11:44:53.828 +03:00 [INF] Now listening on: http://localhost:5018
+2023-08-27 11:44:53.831 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-27 11:44:53.831 +03:00 [INF] Hosting environment: Development
+2023-08-27 11:44:53.831 +03:00 [INF] Content root path: C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.WebAPI\
+2023-08-27 11:44:59.419 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/swagger/index.html - -
+2023-08-27 11:45:00.010 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/swagger/index.html - - - 200 - text/html;charset=utf-8 596.4300ms
+2023-08-27 11:45:00.100 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/_framework/aspnetcore-browser-refresh.js - -
+2023-08-27 11:45:00.100 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/_vs/browserLink - -
+2023-08-27 11:45:00.105 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 5.4633ms
+2023-08-27 11:45:00.117 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.1766ms
+2023-08-27 11:45:00.245 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/swagger/v1/swagger.json - -
+2023-08-27 11:45:00.364 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 119.5041ms
+2023-08-27 11:45:10.831 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7074/api/Event/add application/json 245
+2023-08-27 11:45:10.900 +03:00 [INF] Executing endpoint 'EventApp.WebAPI.Controllers.EventController.Add (EventApp.WebAPI)'
+2023-08-27 11:45:10.931 +03:00 [INF] Route matched with {action = "Add", controller = "Event"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(EventApp.Entities.Models.EventModel) on controller EventApp.WebAPI.Controllers.EventController (EventApp.WebAPI).
+2023-08-27 11:45:11.248 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], EventApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-27 11:45:11.274 +03:00 [INF] Executed action EventApp.WebAPI.Controllers.EventController.Add (EventApp.WebAPI) in 338.0036ms
+2023-08-27 11:45:11.277 +03:00 [INF] Executed endpoint 'EventApp.WebAPI.Controllers.EventController.Add (EventApp.WebAPI)'
+2023-08-27 11:45:11.279 +03:00 [INF] HTTP POST /api/Event/add responded 400 in 440.7505 ms
+2023-08-27 11:45:11.284 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7074/api/Event/add application/json 245 - 400 - application/json;+charset=utf-8 452.9436ms

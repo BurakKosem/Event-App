@@ -1,0 +1,12 @@
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.Entities\bin\Debug\net6.0\EventApp.Entities.deps.json
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.Entities\bin\Debug\net6.0\EventApp.Entities.dll
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.Entities\bin\Debug\net6.0\EventApp.Entities.pdb
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.Entities\obj\Debug\net6.0\EventApp.Entities.csproj.AssemblyReference.cache
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.Entities\obj\Debug\net6.0\EventApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.Entities\obj\Debug\net6.0\EventApp.Entities.AssemblyInfoInputs.cache
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.Entities\obj\Debug\net6.0\EventApp.Entities.AssemblyInfo.cs
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.Entities\obj\Debug\net6.0\EventApp.Entities.csproj.CoreCompileInputs.cache
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.Entities\obj\Debug\net6.0\EventApp.Entities.dll
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.Entities\obj\Debug\net6.0\refint\EventApp.Entities.dll
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.Entities\obj\Debug\net6.0\EventApp.Entities.pdb
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.Entities\obj\Debug\net6.0\ref\EventApp.Entities.dll

@@ -1,0 +1,17 @@
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.DataAccess\bin\Debug\net6.0\EventApp.DataAccess.deps.json
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.DataAccess\bin\Debug\net6.0\EventApp.DataAccess.runtimeconfig.json
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.DataAccess\bin\Debug\net6.0\EventApp.DataAccess.dll
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.DataAccess\bin\Debug\net6.0\EventApp.DataAccess.pdb
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.DataAccess\bin\Debug\net6.0\EventApp.Entities.dll
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.DataAccess\bin\Debug\net6.0\EventApp.Entities.pdb
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.DataAccess\obj\Debug\net6.0\EventApp.DataAccess.csproj.AssemblyReference.cache
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.DataAccess\obj\Debug\net6.0\EventApp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.DataAccess\obj\Debug\net6.0\EventApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.DataAccess\obj\Debug\net6.0\EventApp.DataAccess.AssemblyInfo.cs
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.DataAccess\obj\Debug\net6.0\EventApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.DataAccess\obj\Debug\net6.0\EventApp.DataAccess.csproj.CopyComplete
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.DataAccess\obj\Debug\net6.0\EventApp.DataAccess.dll
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.DataAccess\obj\Debug\net6.0\refint\EventApp.DataAccess.dll
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.DataAccess\obj\Debug\net6.0\EventApp.DataAccess.pdb
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.DataAccess\obj\Debug\net6.0\EventApp.DataAccess.genruntimeconfig.cache
+C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.DataAccess\obj\Debug\net6.0\ref\EventApp.DataAccess.dll

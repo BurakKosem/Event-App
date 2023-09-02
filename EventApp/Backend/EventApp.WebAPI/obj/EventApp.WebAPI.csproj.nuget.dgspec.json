@@ -1,0 +1,417 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.WebAPI\\EventApp.WebAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.Core\\EventApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.Core\\EventApp.Core.csproj",
+        "projectName": "EventApp.Core",
+        "projectPath": "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.Core\\EventApp.Core.csproj",
+        "packagesPath": "C:\\Users\\karap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\karap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.2.3, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.DataAccess\\EventApp.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.DataAccess\\EventApp.DataAccess.csproj",
+        "projectName": "EventApp.DataAccess",
+        "projectPath": "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.DataAccess\\EventApp.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\karap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\karap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.Entities\\EventApp.Entities.csproj": {
+                "projectPath": "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.Entities\\EventApp.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.Entities\\EventApp.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.Entities\\EventApp.Entities.csproj",
+        "projectName": "EventApp.Entities",
+        "projectPath": "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.Entities\\EventApp.Entities.csproj",
+        "packagesPath": "C:\\Users\\karap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\karap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.Service\\EventApp.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.Service\\EventApp.Service.csproj",
+        "projectName": "EventApp.Service",
+        "projectPath": "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.Service\\EventApp.Service.csproj",
+        "packagesPath": "C:\\Users\\karap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\karap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.DataAccess\\EventApp.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.DataAccess\\EventApp.DataAccess.csproj"
+              },
+              "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.Entities\\EventApp.Entities.csproj": {
+                "projectPath": "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.Entities\\EventApp.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.WebAPI\\EventApp.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.WebAPI\\EventApp.WebAPI.csproj",
+        "projectName": "EventApp.WebAPI",
+        "projectPath": "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.WebAPI\\EventApp.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\karap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\karap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.Core\\EventApp.Core.csproj": {
+                "projectPath": "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.Core\\EventApp.Core.csproj"
+              },
+              "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.DataAccess\\EventApp.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.DataAccess\\EventApp.DataAccess.csproj"
+              },
+              "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.Service\\EventApp.Service.csproj": {
+                "projectPath": "C:\\Users\\karap\\Desktop\\Sw\\EventApp\\Backend\\EventApp.Service\\EventApp.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.7.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.7.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

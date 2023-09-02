@@ -1,0 +1,915 @@
+2023-08-29 09:21:50.367 +03:00 [INF] User profile is available. Using 'C:\Users\karap\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-29 09:21:51.023 +03:00 [INF] Now listening on: https://localhost:7074
+2023-08-29 09:21:51.023 +03:00 [INF] Now listening on: http://localhost:5018
+2023-08-29 09:21:51.030 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-29 09:21:51.030 +03:00 [INF] Hosting environment: Development
+2023-08-29 09:21:51.030 +03:00 [INF] Content root path: C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.WebAPI\
+2023-08-29 09:21:51.829 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/swagger/index.html - -
+2023-08-29 09:21:52.405 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/swagger/index.html - - - 200 - text/html;charset=utf-8 579.5569ms
+2023-08-29 09:21:52.504 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/_framework/aspnetcore-browser-refresh.js - -
+2023-08-29 09:21:52.508 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 4.2637ms
+2023-08-29 09:21:52.520 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/_vs/browserLink - -
+2023-08-29 09:21:52.549 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.5313ms
+2023-08-29 09:21:52.709 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/swagger/v1/swagger.json - -
+2023-08-29 09:21:52.815 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 105.6152ms
+2023-08-29 09:23:44.042 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7074/api/Event/addEventUser application/json 924
+2023-08-29 09:23:44.139 +03:00 [INF] Executing endpoint 'EventApp.WebAPI.Controllers.EventController.addEventUser (EventApp.WebAPI)'
+2023-08-29 09:23:44.161 +03:00 [INF] Route matched with {action = "addEventUser", controller = "Event"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult addEventUser(EventApp.Entities.Identity.ApiUser) on controller EventApp.WebAPI.Controllers.EventController (EventApp.WebAPI).
+2023-08-29 09:23:44.633 +03:00 [INF] {"Model":"OnActionExecuting","Controller":"Event","Action":"addEventUser","Id":null}
+2023-08-29 09:23:44.638 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-08-29 09:23:44.643 +03:00 [INF] Executed action EventApp.WebAPI.Controllers.EventController.addEventUser (EventApp.WebAPI) in 477.7645ms
+2023-08-29 09:23:44.644 +03:00 [INF] Executed endpoint 'EventApp.WebAPI.Controllers.EventController.addEventUser (EventApp.WebAPI)'
+2023-08-29 09:23:44.646 +03:00 [INF] HTTP POST /api/Event/addEventUser responded 200 in 592.4113 ms
+2023-08-29 09:23:44.648 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7074/api/Event/addEventUser application/json 924 - 200 0 - 606.3084ms
+2023-08-29 09:53:13.557 +03:00 [INF] User profile is available. Using 'C:\Users\karap\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-29 09:53:13.799 +03:00 [INF] Now listening on: https://localhost:7074
+2023-08-29 09:53:13.799 +03:00 [INF] Now listening on: http://localhost:5018
+2023-08-29 09:53:13.803 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-29 09:53:13.804 +03:00 [INF] Hosting environment: Development
+2023-08-29 09:53:13.804 +03:00 [INF] Content root path: C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.WebAPI\
+2023-08-29 09:53:14.644 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/swagger/index.html - -
+2023-08-29 09:53:15.131 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/swagger/index.html - - - 200 - text/html;charset=utf-8 493.2769ms
+2023-08-29 09:53:15.227 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/_vs/browserLink - -
+2023-08-29 09:53:15.227 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/_framework/aspnetcore-browser-refresh.js - -
+2023-08-29 09:53:15.235 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 7.4022ms
+2023-08-29 09:53:15.247 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.1865ms
+2023-08-29 09:53:15.385 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/swagger/v1/swagger.json - -
+2023-08-29 09:53:15.499 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 113.7938ms
+2023-08-29 09:53:24.674 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7074/api/Account/login application/json 50
+2023-08-29 09:53:24.737 +03:00 [INF] Executing endpoint 'EventApp.WebAPI.Controllers.AccountController.Login (EventApp.WebAPI)'
+2023-08-29 09:53:24.767 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Login(EventApp.Entities.DTOs.LoginDto) on controller EventApp.WebAPI.Controllers.AccountController (EventApp.WebAPI).
+2023-08-29 09:53:24.964 +03:00 [INF] {"Model":"OnActionExecuting","Controller":"Account","Action":"Login","Id":null}
+2023-08-29 09:53:25.672 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 09:53:26.751 +03:00 [INF] Executed DbCommand (70ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-08-29 09:53:26.945 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2023-08-29 09:53:27.140 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-08-29 09:53:27.146 +03:00 [INF] Executed action EventApp.WebAPI.Controllers.AccountController.Login (EventApp.WebAPI) in 2374.2725ms
+2023-08-29 09:53:27.147 +03:00 [INF] Executed endpoint 'EventApp.WebAPI.Controllers.AccountController.Login (EventApp.WebAPI)'
+2023-08-29 09:53:27.150 +03:00 [INF] HTTP POST /api/Account/login responded 200 in 2469.8038 ms
+2023-08-29 09:53:27.162 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7074/api/Account/login application/json 50 - 200 - text/plain;+charset=utf-8 2488.2997ms
+2023-08-29 09:53:42.680 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/api/City/getall - -
+2023-08-29 09:53:42.682 +03:00 [INF] Executing endpoint 'EventApp.WebAPI.Controllers.CityController.GetAll (EventApp.WebAPI)'
+2023-08-29 09:53:42.683 +03:00 [INF] Route matched with {action = "GetAll", controller = "City"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller EventApp.WebAPI.Controllers.CityController (EventApp.WebAPI).
+2023-08-29 09:53:42.766 +03:00 [INF] {"Model":"OnActionExecuting","Controller":"City","Action":"GetAll","Id":null}
+2023-08-29 09:53:42.817 +03:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[EventApp.Entities.Models.CityModel, EventApp.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-29 09:53:42.833 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CityId], [c].[CityName]
+FROM [Cities] AS [c]
+2023-08-29 09:53:42.845 +03:00 [INF] Executed action EventApp.WebAPI.Controllers.CityController.GetAll (EventApp.WebAPI) in 161.303ms
+2023-08-29 09:53:42.845 +03:00 [INF] Executed endpoint 'EventApp.WebAPI.Controllers.CityController.GetAll (EventApp.WebAPI)'
+2023-08-29 09:53:42.845 +03:00 [INF] HTTP GET /api/City/getall responded 200 in 163.0377 ms
+2023-08-29 09:53:42.845 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/api/City/getall - - - 200 - application/json;+charset=utf-8 164.9318ms
+2023-08-29 09:53:50.157 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7074/api/City/add application/json 41
+2023-08-29 09:53:50.159 +03:00 [INF] Executing endpoint 'EventApp.WebAPI.Controllers.CityController.Add (EventApp.WebAPI)'
+2023-08-29 09:53:50.161 +03:00 [INF] Route matched with {action = "Add", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(EventApp.Entities.Models.CityModel) on controller EventApp.WebAPI.Controllers.CityController (EventApp.WebAPI).
+2023-08-29 09:53:50.193 +03:00 [INF] {"Model":"OnActionExecuting","Controller":"City","Action":"Add","Id":null}
+2023-08-29 09:53:50.347 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cities] ([CityName])
+OUTPUT INSERTED.[CityId]
+VALUES (@p0);
+2023-08-29 09:53:50.389 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-08-29 09:53:50.389 +03:00 [INF] Executed action EventApp.WebAPI.Controllers.CityController.Add (EventApp.WebAPI) in 227.4113ms
+2023-08-29 09:53:50.389 +03:00 [INF] Executed endpoint 'EventApp.WebAPI.Controllers.CityController.Add (EventApp.WebAPI)'
+2023-08-29 09:53:50.389 +03:00 [INF] HTTP POST /api/City/add responded 200 in 230.7615 ms
+2023-08-29 09:53:50.389 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7074/api/City/add application/json 41 - 200 0 - 232.0946ms
+2023-08-29 09:53:55.374 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7074/api/City/add application/json 41
+2023-08-29 09:53:55.374 +03:00 [INF] Executing endpoint 'EventApp.WebAPI.Controllers.CityController.Add (EventApp.WebAPI)'
+2023-08-29 09:53:55.374 +03:00 [INF] Route matched with {action = "Add", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(EventApp.Entities.Models.CityModel) on controller EventApp.WebAPI.Controllers.CityController (EventApp.WebAPI).
+2023-08-29 09:53:55.377 +03:00 [INF] {"Model":"OnActionExecuting","Controller":"City","Action":"Add","Id":null}
+2023-08-29 09:53:55.380 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cities] ([CityName])
+OUTPUT INSERTED.[CityId]
+VALUES (@p0);
+2023-08-29 09:53:55.382 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-08-29 09:53:55.382 +03:00 [INF] Executed action EventApp.WebAPI.Controllers.CityController.Add (EventApp.WebAPI) in 7.0692ms
+2023-08-29 09:53:55.382 +03:00 [INF] Executed endpoint 'EventApp.WebAPI.Controllers.CityController.Add (EventApp.WebAPI)'
+2023-08-29 09:53:55.382 +03:00 [INF] HTTP POST /api/City/add responded 200 in 7.4036 ms
+2023-08-29 09:53:55.382 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7074/api/City/add application/json 41 - 200 0 - 7.7241ms
+2023-08-29 09:53:58.457 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/api/City/getall - -
+2023-08-29 09:53:58.457 +03:00 [INF] Executing endpoint 'EventApp.WebAPI.Controllers.CityController.GetAll (EventApp.WebAPI)'
+2023-08-29 09:53:58.457 +03:00 [INF] Route matched with {action = "GetAll", controller = "City"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller EventApp.WebAPI.Controllers.CityController (EventApp.WebAPI).
+2023-08-29 09:53:58.457 +03:00 [INF] {"Model":"OnActionExecuting","Controller":"City","Action":"GetAll","Id":null}
+2023-08-29 09:53:58.460 +03:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[EventApp.Entities.Models.CityModel, EventApp.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-29 09:53:58.462 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CityId], [c].[CityName]
+FROM [Cities] AS [c]
+2023-08-29 09:53:58.464 +03:00 [INF] Executed action EventApp.WebAPI.Controllers.CityController.GetAll (EventApp.WebAPI) in 6.3449ms
+2023-08-29 09:53:58.464 +03:00 [INF] Executed endpoint 'EventApp.WebAPI.Controllers.CityController.GetAll (EventApp.WebAPI)'
+2023-08-29 09:53:58.464 +03:00 [INF] HTTP GET /api/City/getall responded 200 in 6.8409 ms
+2023-08-29 09:53:58.464 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/api/City/getall - - - 200 - application/json;+charset=utf-8 7.2017ms
+2023-08-29 09:54:04.720 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/api/Category/getall - -
+2023-08-29 09:54:04.720 +03:00 [INF] Executing endpoint 'EventApp.WebAPI.Controllers.CategoryController.GetAll (EventApp.WebAPI)'
+2023-08-29 09:54:04.721 +03:00 [INF] Route matched with {action = "GetAll", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller EventApp.WebAPI.Controllers.CategoryController (EventApp.WebAPI).
+2023-08-29 09:54:04.721 +03:00 [INF] {"Model":"OnActionExecuting","Controller":"Category","Action":"GetAll","Id":null}
+2023-08-29 09:54:04.722 +03:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[EventApp.Entities.Models.CategoryModel, EventApp.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-29 09:54:04.728 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryId], [c].[CategoryName]
+FROM [Categories] AS [c]
+2023-08-29 09:54:04.729 +03:00 [INF] Executed action EventApp.WebAPI.Controllers.CategoryController.GetAll (EventApp.WebAPI) in 7.7765ms
+2023-08-29 09:54:04.729 +03:00 [INF] Executed endpoint 'EventApp.WebAPI.Controllers.CategoryController.GetAll (EventApp.WebAPI)'
+2023-08-29 09:54:04.729 +03:00 [INF] HTTP GET /api/Category/getall responded 200 in 8.6952 ms
+2023-08-29 09:54:04.729 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/api/Category/getall - - - 200 - application/json;+charset=utf-8 9.1386ms
+2023-08-29 09:54:12.368 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7074/api/Category/add application/json 50
+2023-08-29 09:54:12.369 +03:00 [INF] Executing endpoint 'EventApp.WebAPI.Controllers.CategoryController.Add (EventApp.WebAPI)'
+2023-08-29 09:54:12.370 +03:00 [INF] Route matched with {action = "Add", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(EventApp.Entities.Models.CategoryModel) on controller EventApp.WebAPI.Controllers.CategoryController (EventApp.WebAPI).
+2023-08-29 09:54:12.376 +03:00 [INF] {"Model":"OnActionExecuting","Controller":"Category","Action":"Add","Id":null}
+2023-08-29 09:54:12.389 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Categories] ([CategoryName])
+OUTPUT INSERTED.[CategoryId]
+VALUES (@p0);
+2023-08-29 09:54:12.390 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-08-29 09:54:12.390 +03:00 [INF] Executed action EventApp.WebAPI.Controllers.CategoryController.Add (EventApp.WebAPI) in 19.7445ms
+2023-08-29 09:54:12.390 +03:00 [INF] Executed endpoint 'EventApp.WebAPI.Controllers.CategoryController.Add (EventApp.WebAPI)'
+2023-08-29 09:54:12.390 +03:00 [INF] HTTP POST /api/Category/add responded 200 in 21.7401 ms
+2023-08-29 09:54:12.390 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7074/api/Category/add application/json 50 - 200 0 - 22.7415ms
+2023-08-29 09:54:17.587 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7074/api/Category/add application/json 49
+2023-08-29 09:54:17.587 +03:00 [INF] Executing endpoint 'EventApp.WebAPI.Controllers.CategoryController.Add (EventApp.WebAPI)'
+2023-08-29 09:54:17.587 +03:00 [INF] Route matched with {action = "Add", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(EventApp.Entities.Models.CategoryModel) on controller EventApp.WebAPI.Controllers.CategoryController (EventApp.WebAPI).
+2023-08-29 09:54:17.588 +03:00 [INF] {"Model":"OnActionExecuting","Controller":"Category","Action":"Add","Id":null}
+2023-08-29 09:54:17.590 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Categories] ([CategoryName])
+OUTPUT INSERTED.[CategoryId]
+VALUES (@p0);
+2023-08-29 09:54:17.591 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-08-29 09:54:17.592 +03:00 [INF] Executed action EventApp.WebAPI.Controllers.CategoryController.Add (EventApp.WebAPI) in 4.6808ms
+2023-08-29 09:54:17.592 +03:00 [INF] Executed endpoint 'EventApp.WebAPI.Controllers.CategoryController.Add (EventApp.WebAPI)'
+2023-08-29 09:54:17.592 +03:00 [INF] HTTP POST /api/Category/add responded 200 in 5.0124 ms
+2023-08-29 09:54:17.592 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7074/api/Category/add application/json 49 - 200 0 - 5.3400ms
+2023-08-29 09:54:22.541 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/api/Category/getall - -
+2023-08-29 09:54:22.542 +03:00 [INF] Executing endpoint 'EventApp.WebAPI.Controllers.CategoryController.GetAll (EventApp.WebAPI)'
+2023-08-29 09:54:22.542 +03:00 [INF] Route matched with {action = "GetAll", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller EventApp.WebAPI.Controllers.CategoryController (EventApp.WebAPI).
+2023-08-29 09:54:22.542 +03:00 [INF] {"Model":"OnActionExecuting","Controller":"Category","Action":"GetAll","Id":null}
+2023-08-29 09:54:22.542 +03:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[EventApp.Entities.Models.CategoryModel, EventApp.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-29 09:54:22.543 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryId], [c].[CategoryName]
+FROM [Categories] AS [c]
+2023-08-29 09:54:22.544 +03:00 [INF] Executed action EventApp.WebAPI.Controllers.CategoryController.GetAll (EventApp.WebAPI) in 2.6129ms
+2023-08-29 09:54:22.544 +03:00 [INF] Executed endpoint 'EventApp.WebAPI.Controllers.CategoryController.GetAll (EventApp.WebAPI)'
+2023-08-29 09:54:22.544 +03:00 [INF] HTTP GET /api/Category/getall responded 200 in 2.8909 ms
+2023-08-29 09:54:22.545 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/api/Category/getall - - - 200 - application/json;+charset=utf-8 3.2558ms
+2023-08-29 09:54:36.175 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/api/Event/getallwithdetails - -
+2023-08-29 09:54:36.176 +03:00 [INF] Executing endpoint 'EventApp.WebAPI.Controllers.EventController.GetAllWithDetails (EventApp.WebAPI)'
+2023-08-29 09:54:36.178 +03:00 [INF] Route matched with {action = "GetAllWithDetails", controller = "Event"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWithDetails() on controller EventApp.WebAPI.Controllers.EventController (EventApp.WebAPI).
+2023-08-29 09:54:36.178 +03:00 [INF] {"Model":"OnActionExecuting","Controller":"Event","Action":"GetAllWithDetails","Id":null}
+2023-08-29 09:54:36.189 +03:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[EventApp.Entities.DTOs.EventDetailDto, EventApp.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-29 09:54:36.213 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EventId], [e].[Name] AS [EventName], [e].[Address] AS [EventAddress], [e].[Date] AS [EventDate], [e].[Price] AS [EventPrice], [e].[Description] AS [EventDescription], [e].[ApplicationFinishDate] AS [EventApplicationFinishDate], [e].[Quota] AS [EventQuota], [e].[Ticket] AS [EventTicket], [c].[CategoryName], [c0].[CityName], [a].[Id] AS [CreatorUserId]
+FROM [Events] AS [e]
+INNER JOIN [Categories] AS [c] ON [e].[CategoryId] = [c].[CategoryId]
+INNER JOIN [Cities] AS [c0] ON [e].[CityId] = [c0].[CityId]
+INNER JOIN [AspNetUsers] AS [a] ON [e].[CreatorUserId] = [a].[Id]
+2023-08-29 09:54:36.224 +03:00 [INF] Executed action EventApp.WebAPI.Controllers.EventController.GetAllWithDetails (EventApp.WebAPI) in 45.6202ms
+2023-08-29 09:54:36.224 +03:00 [INF] Executed endpoint 'EventApp.WebAPI.Controllers.EventController.GetAllWithDetails (EventApp.WebAPI)'
+2023-08-29 09:54:36.224 +03:00 [INF] HTTP GET /api/Event/getallwithdetails responded 200 in 48.2788 ms
+2023-08-29 09:54:36.224 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/api/Event/getallwithdetails - - - 200 - application/json;+charset=utf-8 48.8447ms
+2023-08-29 09:55:39.734 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7074/api/Event/addbydetails application/json 558
+2023-08-29 09:55:39.747 +03:00 [INF] Executing endpoint 'EventApp.WebAPI.Controllers.EventController.addbydetails (EventApp.WebAPI)'
+2023-08-29 09:55:39.750 +03:00 [INF] Route matched with {action = "addbydetails", controller = "Event"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] addbydetails(EventApp.Entities.Models.EventModel) on controller EventApp.WebAPI.Controllers.EventController (EventApp.WebAPI).
+2023-08-29 09:55:39.773 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], EventApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-29 09:55:39.786 +03:00 [INF] Executed action EventApp.WebAPI.Controllers.EventController.addbydetails (EventApp.WebAPI) in 36.1488ms
+2023-08-29 09:55:39.787 +03:00 [INF] Executed endpoint 'EventApp.WebAPI.Controllers.EventController.addbydetails (EventApp.WebAPI)'
+2023-08-29 09:55:39.787 +03:00 [INF] HTTP POST /api/Event/addbydetails responded 400 in 41.6071 ms
+2023-08-29 09:55:39.787 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7074/api/Event/addbydetails application/json 558 - 400 - application/json;+charset=utf-8 53.0193ms
+2023-08-29 09:56:35.736 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7074/api/Event/addbydetails application/json 557
+2023-08-29 09:56:35.738 +03:00 [INF] Executing endpoint 'EventApp.WebAPI.Controllers.EventController.addbydetails (EventApp.WebAPI)'
+2023-08-29 09:56:35.739 +03:00 [INF] Route matched with {action = "addbydetails", controller = "Event"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] addbydetails(EventApp.Entities.Models.EventModel) on controller EventApp.WebAPI.Controllers.EventController (EventApp.WebAPI).
+2023-08-29 09:56:35.753 +03:00 [INF] {"Model":"OnActionExecuting","Controller":"Event","Action":"addbydetails","Id":null}
+2023-08-29 09:56:35.798 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (Size = 450), @p5='?' (DbType = DateTime2), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p9='?' (DbType = Int32), @p10='?' (DbType = Boolean), @p11='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Events] ([Address], [ApplicationFinishDate], [CategoryId], [CityId], [CreatorUserId], [Date], [Description], [Name], [Price], [Quota], [Status], [Ticket])
+OUTPUT INSERTED.[EventId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+2023-08-29 09:56:35.868 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'EventApp.DataAccess.Contexts.MssqlDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Events_AspNetUsers_CreatorUserId". The conflict occurred in database "EventAppDb", table "dbo.AspNetUsers", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:0db2bdff-3ca5-46ac-b42d-ffbf4d0bfd53
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Events_AspNetUsers_CreatorUserId". The conflict occurred in database "EventAppDb", table "dbo.AspNetUsers", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:0db2bdff-3ca5-46ac-b42d-ffbf4d0bfd53
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-08-29 09:56:35.942 +03:00 [INF] Executed action EventApp.WebAPI.Controllers.EventController.addbydetails (EventApp.WebAPI) in 202.9914ms
+2023-08-29 09:56:35.942 +03:00 [INF] Executed endpoint 'EventApp.WebAPI.Controllers.EventController.addbydetails (EventApp.WebAPI)'
+2023-08-29 09:56:35.943 +03:00 [ERR] HTTP POST /api/Event/addbydetails responded 500 in 205.2430 ms
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Events_AspNetUsers_CreatorUserId". The conflict occurred in database "EventAppDb", table "dbo.AspNetUsers", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:0db2bdff-3ca5-46ac-b42d-ffbf4d0bfd53
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EventApp.DataAccess.Repositories.DalRepositoryBase`1.SaveAsync() in C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.DataAccess\Repositories\DalRepositoryBase.cs:line 66
+   at EventApp.WebAPI.Controllers.EventController.addbydetails(EventModel eventModel) in C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.WebAPI\Controllers\EventController.cs:line 115
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-08-29 09:56:35.966 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Events_AspNetUsers_CreatorUserId". The conflict occurred in database "EventAppDb", table "dbo.AspNetUsers", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:0db2bdff-3ca5-46ac-b42d-ffbf4d0bfd53
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EventApp.DataAccess.Repositories.DalRepositoryBase`1.SaveAsync() in C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.DataAccess\Repositories\DalRepositoryBase.cs:line 66
+   at EventApp.WebAPI.Controllers.EventController.addbydetails(EventModel eventModel) in C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.WebAPI\Controllers\EventController.cs:line 115
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-29 09:56:35.972 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7074/api/Event/addbydetails application/json 557 - 500 - text/plain;+charset=utf-8 235.7314ms
+2023-08-29 09:57:14.926 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7074/api/Event/addbydetails application/json 297
+2023-08-29 09:57:14.930 +03:00 [INF] Executing endpoint 'EventApp.WebAPI.Controllers.EventController.addbydetails (EventApp.WebAPI)'
+2023-08-29 09:57:14.930 +03:00 [INF] Route matched with {action = "addbydetails", controller = "Event"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] addbydetails(EventApp.Entities.Models.EventModel) on controller EventApp.WebAPI.Controllers.EventController (EventApp.WebAPI).
+2023-08-29 09:57:14.931 +03:00 [INF] {"Model":"OnActionExecuting","Controller":"Event","Action":"addbydetails","Id":null}
+2023-08-29 09:57:14.936 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (Size = 450), @p5='?' (DbType = DateTime2), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p9='?' (DbType = Int32), @p10='?' (DbType = Boolean), @p11='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Events] ([Address], [ApplicationFinishDate], [CategoryId], [CityId], [CreatorUserId], [Date], [Description], [Name], [Price], [Quota], [Status], [Ticket])
+OUTPUT INSERTED.[EventId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+2023-08-29 09:57:14.944 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'EventApp.DataAccess.Contexts.MssqlDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Events_AspNetUsers_CreatorUserId". The conflict occurred in database "EventAppDb", table "dbo.AspNetUsers", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:0db2bdff-3ca5-46ac-b42d-ffbf4d0bfd53
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Events_AspNetUsers_CreatorUserId". The conflict occurred in database "EventAppDb", table "dbo.AspNetUsers", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:0db2bdff-3ca5-46ac-b42d-ffbf4d0bfd53
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-08-29 09:57:14.991 +03:00 [INF] Executed action EventApp.WebAPI.Controllers.EventController.addbydetails (EventApp.WebAPI) in 61.6055ms
+2023-08-29 09:57:14.992 +03:00 [INF] Executed endpoint 'EventApp.WebAPI.Controllers.EventController.addbydetails (EventApp.WebAPI)'
+2023-08-29 09:57:14.992 +03:00 [ERR] HTTP POST /api/Event/addbydetails responded 500 in 62.7894 ms
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Events_AspNetUsers_CreatorUserId". The conflict occurred in database "EventAppDb", table "dbo.AspNetUsers", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:0db2bdff-3ca5-46ac-b42d-ffbf4d0bfd53
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EventApp.DataAccess.Repositories.DalRepositoryBase`1.SaveAsync() in C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.DataAccess\Repositories\DalRepositoryBase.cs:line 66
+   at EventApp.WebAPI.Controllers.EventController.addbydetails(EventModel eventModel) in C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.WebAPI\Controllers\EventController.cs:line 115
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-08-29 09:57:14.994 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Events_AspNetUsers_CreatorUserId". The conflict occurred in database "EventAppDb", table "dbo.AspNetUsers", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:0db2bdff-3ca5-46ac-b42d-ffbf4d0bfd53
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EventApp.DataAccess.Repositories.DalRepositoryBase`1.SaveAsync() in C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.DataAccess\Repositories\DalRepositoryBase.cs:line 66
+   at EventApp.WebAPI.Controllers.EventController.addbydetails(EventModel eventModel) in C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.WebAPI\Controllers\EventController.cs:line 115
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-29 09:57:14.996 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7074/api/Event/addbydetails application/json 297 - 500 - text/plain;+charset=utf-8 69.9653ms
+2023-08-29 09:58:41.664 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 09:58:48.711 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 09:58:48.837 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 09:59:06.503 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 09:59:06.806 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-29 09:59:06.825 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-29 09:59:06.828 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-29 09:59:06.828 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-29 09:59:06.838 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-08-29 09:59:06.850 +03:00 [INF] Applying migration '20230829065848_mig_6'.
+2023-08-29 09:59:06.905 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM [AspNetRoles]
+WHERE [Id] = N'72074595-2020-4169-b5cf-81fffc75d98c';
+SELECT @@ROWCOUNT;
+2023-08-29 09:59:06.907 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM [AspNetRoles]
+WHERE [Id] = N'aef7b215-766a-4bdc-b89b-d22d38cb43ee';
+SELECT @@ROWCOUNT;
+2023-08-29 09:59:06.914 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ConcurrencyStamp', N'Name', N'NormalizedName') AND [object_id] = OBJECT_ID(N'[AspNetRoles]'))
+    SET IDENTITY_INSERT [AspNetRoles] ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (N'5f1ac686-32ed-4175-a216-6584d7e09f0a', N'ce774b7e-5347-4826-b38c-9c9714f82e28', N'User', N'USER'),
+(N'8971d169-3e10-45cd-8b50-01b2a54fa490', N'57aeaf2f-45d7-4d20-b662-42a2a8615786', N'Admin', N'ADMIN');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ConcurrencyStamp', N'Name', N'NormalizedName') AND [object_id] = OBJECT_ID(N'[AspNetRoles]'))
+    SET IDENTITY_INSERT [AspNetRoles] OFF;
+2023-08-29 09:59:06.917 +03:00 [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Events] SET [ApplicationFinishDate] = '2023-08-29T09:58:48.8255967+03:00', [CreatorUserId] = N'', [Date] = '2023-08-29T09:58:48.8255976+03:00'
+WHERE [EventId] = 1;
+SELECT @@ROWCOUNT;
+2023-08-29 09:59:53.985 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 09:59:54.119 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 09:59:54.400 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-29 09:59:54.418 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-29 09:59:54.425 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-08-29 09:59:58.056 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 09:59:58.182 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 10:00:02.622 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 10:00:02.897 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-29 10:00:02.914 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-29 10:00:02.917 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-29 10:00:02.917 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-29 10:00:02.925 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-08-29 10:00:02.936 +03:00 [INF] Applying migration '20230829065958_mig_6'.
+2023-08-29 10:00:02.994 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Events] DROP CONSTRAINT [FK_Events_AspNetUsers_CreatorUserId];
+2023-08-29 10:00:02.995 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM [AspNetRoles]
+WHERE [Id] = N'72074595-2020-4169-b5cf-81fffc75d98c';
+SELECT @@ROWCOUNT;
+2023-08-29 10:00:02.995 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM [AspNetRoles]
+WHERE [Id] = N'aef7b215-766a-4bdc-b89b-d22d38cb43ee';
+SELECT @@ROWCOUNT;
+2023-08-29 10:00:03.008 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Events]') AND [c].[name] = N'CreatorUserId');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [Events] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [Events] ALTER COLUMN [CreatorUserId] nvarchar(450) NULL;
+2023-08-29 10:00:03.013 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ConcurrencyStamp', N'Name', N'NormalizedName') AND [object_id] = OBJECT_ID(N'[AspNetRoles]'))
+    SET IDENTITY_INSERT [AspNetRoles] ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (N'8c4d57dd-6ec0-4cbc-812d-bde3f2ee8bd5', N'73dcd87f-503a-45d0-b91e-0e5acd711990', N'User', N'USER'),
+(N'f109fb43-005d-4bd5-979b-af7abd179527', N'5a3b3d74-6022-4cb6-8b53-1fdadeda1a05', N'Admin', N'ADMIN');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ConcurrencyStamp', N'Name', N'NormalizedName') AND [object_id] = OBJECT_ID(N'[AspNetRoles]'))
+    SET IDENTITY_INSERT [AspNetRoles] OFF;
+2023-08-29 10:00:03.015 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Events] SET [ApplicationFinishDate] = '2023-08-29T09:59:58.1687199+03:00', [CreatorUserId] = N'', [Date] = '2023-08-29T09:59:58.1687208+03:00'
+WHERE [EventId] = 1;
+SELECT @@ROWCOUNT;
+2023-08-29 10:00:03.019 +03:00 [ERR] Failed executing DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Events] ADD CONSTRAINT [FK_Events_AspNetUsers_CreatorUserId] FOREIGN KEY ([CreatorUserId]) REFERENCES [AspNetUsers] ([Id]);
+2023-08-29 10:00:45.349 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 10:00:45.481 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 10:00:45.759 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-29 10:00:45.778 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-29 10:00:45.784 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-08-29 10:00:49.147 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 10:00:49.277 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 10:00:53.560 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 10:00:53.839 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-29 10:00:53.856 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-29 10:00:53.858 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-29 10:00:53.859 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-29 10:00:53.866 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-08-29 10:00:53.877 +03:00 [INF] Applying migration '20230829070049_mig_6'.
+2023-08-29 10:00:53.932 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Events] DROP CONSTRAINT [FK_Events_AspNetUsers_CreatorUserId];
+2023-08-29 10:00:53.933 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM [AspNetRoles]
+WHERE [Id] = N'72074595-2020-4169-b5cf-81fffc75d98c';
+SELECT @@ROWCOUNT;
+2023-08-29 10:00:53.934 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM [AspNetRoles]
+WHERE [Id] = N'aef7b215-766a-4bdc-b89b-d22d38cb43ee';
+SELECT @@ROWCOUNT;
+2023-08-29 10:00:53.938 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Events]') AND [c].[name] = N'CreatorUserId');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [Events] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [Events] ALTER COLUMN [CreatorUserId] nvarchar(450) NULL;
+2023-08-29 10:00:53.943 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ConcurrencyStamp', N'Name', N'NormalizedName') AND [object_id] = OBJECT_ID(N'[AspNetRoles]'))
+    SET IDENTITY_INSERT [AspNetRoles] ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (N'5f799313-89af-41db-96ab-52f474f06913', N'44dbd504-fc52-4739-81ae-fc245459bad8', N'Admin', N'ADMIN'),
+(N'ff7713e1-2718-44bd-8249-bcd37fe481cb', N'402c1e08-9a79-43c8-8610-95923b326d43', N'User', N'USER');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ConcurrencyStamp', N'Name', N'NormalizedName') AND [object_id] = OBJECT_ID(N'[AspNetRoles]'))
+    SET IDENTITY_INSERT [AspNetRoles] OFF;
+2023-08-29 10:00:53.945 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Events] SET [ApplicationFinishDate] = '2023-08-29T10:00:49.2600463+03:00', [CreatorUserId] = N'', [Date] = '2023-08-29T10:00:49.2600472+03:00'
+WHERE [EventId] = 1;
+SELECT @@ROWCOUNT;
+2023-08-29 10:00:53.949 +03:00 [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Events] ADD CONSTRAINT [FK_Events_AspNetUsers_CreatorUserId] FOREIGN KEY ([CreatorUserId]) REFERENCES [AspNetUsers] ([Id]);
+2023-08-29 10:01:27.862 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 10:01:27.988 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 10:01:28.246 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-29 10:01:28.263 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-29 10:01:28.269 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-08-29 10:01:47.327 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 10:01:47.460 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 10:01:52.088 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 10:01:52.363 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-29 10:01:52.380 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-29 10:01:52.382 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-29 10:01:52.383 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-29 10:01:52.390 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-08-29 10:01:52.401 +03:00 [INF] Applying migration '20230829070147_mig_6'.
+2023-08-29 10:01:52.456 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Events] DROP CONSTRAINT [FK_Events_AspNetUsers_CreatorUserId];
+2023-08-29 10:01:52.457 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM [AspNetRoles]
+WHERE [Id] = N'72074595-2020-4169-b5cf-81fffc75d98c';
+SELECT @@ROWCOUNT;
+2023-08-29 10:01:52.458 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM [AspNetRoles]
+WHERE [Id] = N'aef7b215-766a-4bdc-b89b-d22d38cb43ee';
+SELECT @@ROWCOUNT;
+2023-08-29 10:01:52.463 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Events]') AND [c].[name] = N'CreatorUserId');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [Events] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [Events] ALTER COLUMN [CreatorUserId] nvarchar(450) NULL;
+2023-08-29 10:01:52.468 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ConcurrencyStamp', N'Name', N'NormalizedName') AND [object_id] = OBJECT_ID(N'[AspNetRoles]'))
+    SET IDENTITY_INSERT [AspNetRoles] ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (N'e6a89519-5ed8-48f8-a237-0bbd3aec7398', N'8be19799-d870-400d-8b3c-468d97a7e425', N'User', N'USER'),
+(N'fa4ef2b5-c151-40de-8623-ea39c3440802', N'ffad07f8-98d1-43c6-b520-e0352260dcd0', N'Admin', N'ADMIN');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ConcurrencyStamp', N'Name', N'NormalizedName') AND [object_id] = OBJECT_ID(N'[AspNetRoles]'))
+    SET IDENTITY_INSERT [AspNetRoles] OFF;
+2023-08-29 10:01:52.469 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Events] SET [ApplicationFinishDate] = '2023-08-29T10:01:47.4477006+03:00', [CreatorUserId] = N'', [Date] = '2023-08-29T10:01:47.4477014+03:00'
+WHERE [EventId] = 1;
+SELECT @@ROWCOUNT;
+2023-08-29 10:01:52.473 +03:00 [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Events] ADD CONSTRAINT [FK_Events_AspNetUsers_CreatorUserId] FOREIGN KEY ([CreatorUserId]) REFERENCES [AspNetUsers] ([Id]);
+2023-08-29 10:02:12.215 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 10:02:12.339 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 10:02:12.595 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-29 10:02:12.612 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-29 10:02:12.618 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-08-29 10:02:34.587 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 10:02:34.721 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 10:02:39.038 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 10:02:39.314 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-29 10:02:39.331 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-29 10:02:39.333 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-29 10:02:39.333 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-29 10:02:39.341 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-08-29 10:02:39.353 +03:00 [INF] Applying migration '20230829070234_mig_6'.
+2023-08-29 10:02:39.408 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Events] DROP CONSTRAINT [FK_Events_AspNetUsers_CreatorUserId];
+2023-08-29 10:02:39.409 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM [AspNetRoles]
+WHERE [Id] = N'72074595-2020-4169-b5cf-81fffc75d98c';
+SELECT @@ROWCOUNT;
+2023-08-29 10:02:39.410 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM [AspNetRoles]
+WHERE [Id] = N'aef7b215-766a-4bdc-b89b-d22d38cb43ee';
+SELECT @@ROWCOUNT;
+2023-08-29 10:02:39.414 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Events]') AND [c].[name] = N'CreatorUserId');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [Events] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [Events] ALTER COLUMN [CreatorUserId] nvarchar(450) NULL;
+2023-08-29 10:02:39.419 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ConcurrencyStamp', N'Name', N'NormalizedName') AND [object_id] = OBJECT_ID(N'[AspNetRoles]'))
+    SET IDENTITY_INSERT [AspNetRoles] ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (N'90fe9919-713a-41e6-ab7f-521d34c89edf', N'803bb9c0-5938-428f-b914-c231ee46f769', N'User', N'USER'),
+(N'99e57067-8146-4ed3-8f70-f7e3436ea906', N'7bb4ba4c-7ef7-4128-8a92-7dae6b205c18', N'Admin', N'ADMIN');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ConcurrencyStamp', N'Name', N'NormalizedName') AND [object_id] = OBJECT_ID(N'[AspNetRoles]'))
+    SET IDENTITY_INSERT [AspNetRoles] OFF;
+2023-08-29 10:02:39.420 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Events] SET [ApplicationFinishDate] = '2023-08-29T10:02:34.7079752+03:00', [CreatorUserId] = N'', [Date] = '2023-08-29T10:02:34.7079761+03:00'
+WHERE [EventId] = 1;
+SELECT @@ROWCOUNT;
+2023-08-29 10:02:39.424 +03:00 [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Events] ADD CONSTRAINT [FK_Events_AspNetUsers_CreatorUserId] FOREIGN KEY ([CreatorUserId]) REFERENCES [AspNetUsers] ([Id]);
+2023-08-29 10:02:42.638 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 10:02:42.766 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 10:02:43.028 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-29 10:02:43.046 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-29 10:02:43.051 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-08-29 10:03:08.097 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 10:03:08.230 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 10:03:13.007 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 10:03:13.283 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-29 10:03:13.300 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-29 10:03:13.303 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-29 10:03:13.303 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-29 10:03:13.310 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-08-29 10:03:13.321 +03:00 [INF] Applying migration '20230829070308_mig_6'.
+2023-08-29 10:03:13.378 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Events] DROP CONSTRAINT [FK_Events_AspNetUsers_CreatorUserId];
+2023-08-29 10:03:13.379 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM [AspNetRoles]
+WHERE [Id] = N'72074595-2020-4169-b5cf-81fffc75d98c';
+SELECT @@ROWCOUNT;
+2023-08-29 10:03:13.379 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM [AspNetRoles]
+WHERE [Id] = N'aef7b215-766a-4bdc-b89b-d22d38cb43ee';
+SELECT @@ROWCOUNT;
+2023-08-29 10:03:13.384 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Events]') AND [c].[name] = N'CreatorUserId');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [Events] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [Events] ALTER COLUMN [CreatorUserId] nvarchar(450) NULL;
+2023-08-29 10:03:13.389 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ConcurrencyStamp', N'Name', N'NormalizedName') AND [object_id] = OBJECT_ID(N'[AspNetRoles]'))
+    SET IDENTITY_INSERT [AspNetRoles] ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (N'0892f101-b3bb-468d-a968-102762a41760', N'c36605ba-6c8e-4a54-aa5e-13e8c47ef1d2', N'Admin', N'ADMIN'),
+(N'65878c8b-b12c-4730-9a4f-c1da46f90420', N'5af5ce90-efa0-4979-ae92-1e4b94514116', N'User', N'USER');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ConcurrencyStamp', N'Name', N'NormalizedName') AND [object_id] = OBJECT_ID(N'[AspNetRoles]'))
+    SET IDENTITY_INSERT [AspNetRoles] OFF;
+2023-08-29 10:03:13.390 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Events] SET [ApplicationFinishDate] = '2023-08-29T10:03:08.2177816+03:00', [Date] = '2023-08-29T10:03:08.2177825+03:00'
+WHERE [EventId] = 1;
+SELECT @@ROWCOUNT;
+2023-08-29 10:03:13.392 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Events] ADD CONSTRAINT [FK_Events_AspNetUsers_CreatorUserId] FOREIGN KEY ([CreatorUserId]) REFERENCES [AspNetUsers] ([Id]);
+2023-08-29 10:03:13.392 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230829070308_mig_6', N'7.0.10');
+2023-08-29 10:03:31.108 +03:00 [INF] User profile is available. Using 'C:\Users\karap\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-29 10:03:31.334 +03:00 [INF] Now listening on: https://localhost:7074
+2023-08-29 10:03:31.334 +03:00 [INF] Now listening on: http://localhost:5018
+2023-08-29 10:03:31.337 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-29 10:03:31.338 +03:00 [INF] Hosting environment: Development
+2023-08-29 10:03:31.338 +03:00 [INF] Content root path: C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.WebAPI\
+2023-08-29 10:03:31.953 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/swagger/index.html - -
+2023-08-29 10:03:32.393 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/swagger/index.html - - - 200 - text/html;charset=utf-8 445.4433ms
+2023-08-29 10:03:32.474 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/_framework/aspnetcore-browser-refresh.js - -
+2023-08-29 10:03:32.474 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/_vs/browserLink - -
+2023-08-29 10:03:32.482 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 7.5475ms
+2023-08-29 10:03:32.489 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.2369ms
+2023-08-29 10:03:32.608 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/swagger/v1/swagger.json - -
+2023-08-29 10:03:32.709 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 100.7775ms
+2023-08-29 10:03:39.839 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/api/Event/getallwithdetails - -
+2023-08-29 10:03:39.906 +03:00 [INF] Executing endpoint 'EventApp.WebAPI.Controllers.EventController.GetAllWithDetails (EventApp.WebAPI)'
+2023-08-29 10:03:39.927 +03:00 [INF] Route matched with {action = "GetAllWithDetails", controller = "Event"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWithDetails() on controller EventApp.WebAPI.Controllers.EventController (EventApp.WebAPI).
+2023-08-29 10:03:40.158 +03:00 [INF] {"Model":"OnActionExecuting","Controller":"Event","Action":"GetAllWithDetails","Id":null}
+2023-08-29 10:03:40.830 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 10:03:40.964 +03:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[EventApp.Entities.DTOs.EventDetailDto, EventApp.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-29 10:03:41.699 +03:00 [INF] Executed DbCommand (50ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EventId], [e].[Name] AS [EventName], [e].[Address] AS [EventAddress], [e].[Date] AS [EventDate], [e].[Price] AS [EventPrice], [e].[Description] AS [EventDescription], [e].[ApplicationFinishDate] AS [EventApplicationFinishDate], [e].[Quota] AS [EventQuota], [e].[Ticket] AS [EventTicket], [c].[CategoryName], [c0].[CityName], [a].[Id] AS [CreatorUserId]
+FROM [Events] AS [e]
+INNER JOIN [Categories] AS [c] ON [e].[CategoryId] = [c].[CategoryId]
+INNER JOIN [Cities] AS [c0] ON [e].[CityId] = [c0].[CityId]
+INNER JOIN [AspNetUsers] AS [a] ON [e].[CreatorUserId] = [a].[Id]
+2023-08-29 10:03:41.772 +03:00 [INF] Executed action EventApp.WebAPI.Controllers.EventController.GetAllWithDetails (EventApp.WebAPI) in 1841.2223ms
+2023-08-29 10:03:41.774 +03:00 [INF] Executed endpoint 'EventApp.WebAPI.Controllers.EventController.GetAllWithDetails (EventApp.WebAPI)'
+2023-08-29 10:03:41.777 +03:00 [INF] HTTP GET /api/Event/getallwithdetails responded 200 in 1931.2279 ms
+2023-08-29 10:03:41.790 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/api/Event/getallwithdetails - - - 200 - application/json;+charset=utf-8 1950.6697ms
+2023-08-29 10:04:22.975 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7074/api/Event/addbydetails application/json 333
+2023-08-29 10:04:22.989 +03:00 [INF] Executing endpoint 'EventApp.WebAPI.Controllers.EventController.addbydetails (EventApp.WebAPI)'
+2023-08-29 10:04:22.999 +03:00 [INF] Route matched with {action = "addbydetails", controller = "Event"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] addbydetails(EventApp.Entities.Models.EventModel) on controller EventApp.WebAPI.Controllers.EventController (EventApp.WebAPI).
+2023-08-29 10:04:23.094 +03:00 [INF] {"Model":"OnActionExecuting","Controller":"Event","Action":"addbydetails","Id":null}
+2023-08-29 10:04:23.372 +03:00 [INF] Executed DbCommand (42ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (Size = 450), @p5='?' (DbType = DateTime2), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p9='?' (DbType = Int32), @p10='?' (DbType = Boolean), @p11='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Events] ([Address], [ApplicationFinishDate], [CategoryId], [CityId], [CreatorUserId], [Date], [Description], [Name], [Price], [Quota], [Status], [Ticket])
+OUTPUT INSERTED.[EventId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+2023-08-29 10:04:23.420 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-08-29 10:04:23.420 +03:00 [INF] Executed action EventApp.WebAPI.Controllers.EventController.addbydetails (EventApp.WebAPI) in 421.5798ms
+2023-08-29 10:04:23.420 +03:00 [INF] Executed endpoint 'EventApp.WebAPI.Controllers.EventController.addbydetails (EventApp.WebAPI)'
+2023-08-29 10:04:23.421 +03:00 [INF] HTTP POST /api/Event/addbydetails responded 200 in 432.3624 ms
+2023-08-29 10:04:23.421 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7074/api/Event/addbydetails application/json 333 - 200 0 - 448.0570ms
+2023-08-29 10:04:30.165 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/api/Event/getallwithdetails - -
+2023-08-29 10:04:30.168 +03:00 [INF] Executing endpoint 'EventApp.WebAPI.Controllers.EventController.GetAllWithDetails (EventApp.WebAPI)'
+2023-08-29 10:04:30.168 +03:00 [INF] Route matched with {action = "GetAllWithDetails", controller = "Event"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWithDetails() on controller EventApp.WebAPI.Controllers.EventController (EventApp.WebAPI).
+2023-08-29 10:04:30.171 +03:00 [INF] {"Model":"OnActionExecuting","Controller":"Event","Action":"GetAllWithDetails","Id":null}
+2023-08-29 10:04:30.207 +03:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[EventApp.Entities.DTOs.EventDetailDto, EventApp.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-29 10:04:30.212 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EventId], [e].[Name] AS [EventName], [e].[Address] AS [EventAddress], [e].[Date] AS [EventDate], [e].[Price] AS [EventPrice], [e].[Description] AS [EventDescription], [e].[ApplicationFinishDate] AS [EventApplicationFinishDate], [e].[Quota] AS [EventQuota], [e].[Ticket] AS [EventTicket], [c].[CategoryName], [c0].[CityName], [a].[Id] AS [CreatorUserId]
+FROM [Events] AS [e]
+INNER JOIN [Categories] AS [c] ON [e].[CategoryId] = [c].[CategoryId]
+INNER JOIN [Cities] AS [c0] ON [e].[CityId] = [c0].[CityId]
+INNER JOIN [AspNetUsers] AS [a] ON [e].[CreatorUserId] = [a].[Id]
+2023-08-29 10:04:30.213 +03:00 [INF] Executed action EventApp.WebAPI.Controllers.EventController.GetAllWithDetails (EventApp.WebAPI) in 44.8904ms
+2023-08-29 10:04:30.213 +03:00 [INF] Executed endpoint 'EventApp.WebAPI.Controllers.EventController.GetAllWithDetails (EventApp.WebAPI)'
+2023-08-29 10:04:30.213 +03:00 [INF] HTTP GET /api/Event/getallwithdetails responded 200 in 47.9039 ms
+2023-08-29 10:04:30.213 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/api/Event/getallwithdetails - - - 200 - application/json;+charset=utf-8 48.2217ms
+2023-08-29 14:50:30.539 +03:00 [INF] User profile is available. Using 'C:\Users\karap\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-29 14:50:31.058 +03:00 [INF] Now listening on: https://localhost:7074
+2023-08-29 14:50:31.059 +03:00 [INF] Now listening on: http://localhost:5018
+2023-08-29 14:50:31.061 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-29 14:50:31.062 +03:00 [INF] Hosting environment: Development
+2023-08-29 14:50:31.062 +03:00 [INF] Content root path: C:\Users\karap\Desktop\Sw\EventApp\Backend\EventApp.WebAPI\
+2023-08-29 14:50:31.901 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/swagger/index.html - -
+2023-08-29 14:50:32.467 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/swagger/index.html - - - 200 - text/html;charset=utf-8 571.8970ms
+2023-08-29 14:50:32.539 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/_vs/browserLink - -
+2023-08-29 14:50:32.539 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/_framework/aspnetcore-browser-refresh.js - -
+2023-08-29 14:50:32.547 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 7.9083ms
+2023-08-29 14:50:32.566 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.3234ms
+2023-08-29 14:50:32.752 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7074/swagger/v1/swagger.json - -
+2023-08-29 14:50:32.861 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7074/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 109.1300ms
+2023-08-29 14:50:38.810 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7074/api/Account/login application/json 53
+2023-08-29 14:50:38.896 +03:00 [INF] Executing endpoint 'EventApp.WebAPI.Controllers.AccountController.Login (EventApp.WebAPI)'
+2023-08-29 14:50:38.922 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Login(EventApp.Entities.DTOs.LoginDto) on controller EventApp.WebAPI.Controllers.AccountController (EventApp.WebAPI).
+2023-08-29 14:50:39.275 +03:00 [INF] {"Model":"OnActionExecuting","Controller":"Account","Action":"Login","Id":null}
+2023-08-29 14:50:39.945 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Event'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-29 14:50:41.717 +03:00 [INF] Executed DbCommand (70ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-08-29 14:50:41.805 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-08-29 14:50:41.822 +03:00 [INF] Executed action EventApp.WebAPI.Controllers.AccountController.Login (EventApp.WebAPI) in 2896.229ms
+2023-08-29 14:50:41.824 +03:00 [INF] Executed endpoint 'EventApp.WebAPI.Controllers.AccountController.Login (EventApp.WebAPI)'
+2023-08-29 14:50:41.827 +03:00 [INF] HTTP POST /api/Account/login responded 401 in 3009.5402 ms
+2023-08-29 14:50:41.839 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7074/api/Account/login application/json 53 - 401 - application/problem+json;+charset=utf-8 3028.5341ms
